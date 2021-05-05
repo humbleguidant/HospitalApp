@@ -1,0 +1,3 @@
+[console_scripts]
+mllp_send = hl7.client:mllp_send
+

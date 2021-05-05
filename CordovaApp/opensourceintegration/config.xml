@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.opensourceintegration" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="SplashScreen" value="none"/>
+    <name>OpenSourceIntegrationApp</name>
+    <description>
+        This app is for hospital patients, doctors, and administration.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        COSC 470/471 Team:
+        Aubrey Nickerson
+        Bao Mai
+        Derek Manchee
+        Joseph Egely
+        Keaton Canuel
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <icon src="www/img/emerald.png" />
+        <allow-intent href="market:*" />
+        <access origin="*" />
+        <allow-intent href="*" />
+        <allow-navigation href="*" />
+        <access launch-external="yes" origin="*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

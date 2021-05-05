@@ -1,0 +1,63 @@
+<!--
+##################################################
+ This is the design page for the main menu.
+##################################################
+ YearMonthDayCreated: 2021-02-18
+ Project: Open Source Engine Integration
+ Program Name: mainMenu.html
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.2
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)        Author             Revision      What was changed?
+ 2021/02/18               Aubrey Nickerson   1             Set up design page
+ 2021/03/22               Bao Mai            2             Added page header and fixed page interface
+##################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="connect-src *"/>
+    <link rel="stylesheet" href="../css/menu.css">
+    <meta charset="UTF-8">
+    <title>Patients Menu</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/mainMenu.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h1 id="header"></h1>
+    </div>
+    <div class=container>
+        <a href="../pages/chatRoomsSelect.html"><div id="firstButton" class="menu-btn"><i class="fas fa-comment"></i>Chat</div></a>
+        <a id="signOut" href="../index.html"><div class="menu-btn"><i class="fas fa-sign-out-alt"></i>Sign Out </div></a>
+    </div>
+    <div id="loader" class="lds-dual-ring hidden overlay"></div>
+</div>
+</body>
+</html>

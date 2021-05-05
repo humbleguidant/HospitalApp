@@ -1,0 +1,142 @@
+<!--
+##################################################
+ This is the design page for the patients menu.
+##################################################
+ YearMonthDayCreated: 2021-02-18
+ Project: Open Source Engine Integration
+ Program Name: patientInfo.html
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.2
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)        Author             Revision      What was changed?
+ 2021/03/22               Bao Mai            1             Set up page and style
+ 2021/03/26               Aubrey Nickerson   2             Add tabs and table elements to page
+##################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/patientInfo.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script type="text/javascript" src="../js/JsAES.js"></script>
+    <script type="text/javascript" src="../js/patientInfo.js"></script>
+    <title>Patient Information</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="theTextHeader">Patient Detail Information</h1>
+    </div>
+
+    <div class="patient-detail"></div>
+    <div class="wrapper first">
+        <div class="col">
+            <ul id="patientDetails" class="patient-detail">
+            </ul>
+        </div>
+        <div class="col blood">
+          <div class="bType">
+              <h1></h1>
+          </div>  
+        </div>
+    </div>
+
+    <div class="wrapper second">
+        <div class="col">
+          <div class="button">
+            <p> EMR Contact</p>
+            <p id="emergencyNumber"></p>
+          </div>
+        </div>
+        <div class="col">
+            <div class="button">
+            <p> Doctor</p>
+            <p id="doctorsName"></p>
+          </div>
+        </div>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Condition')" id="defaultOpen">Condition</button>
+        <button class="tablinks" onclick="openCity(event, 'Schedule')">Schedule</button>
+        <button class="tablinks" onclick="openCity(event, 'Order Message')">Order Message</button>
+    </div>
+
+    <div id="Condition" class="tabcontent">
+        <div class="wrapper third">
+            <div class="col">
+                <div class="condition">
+                    <p>Condition: </p>
+                    <p id="conditionDescription"></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="treatment">
+                    <p>Treatment: </p>
+                    <p id="procedureDescription"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Schedule" class="tabcontent">
+        <table id="scheduleTable" class="table-fill">
+            <thead>
+            <tr>
+                <th class="text-left firstRow">Type</th>
+                <th class="text-left firstRow">Issue</th>
+                <th class="text-left firstRow">Date</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div id="Order Message" class="tabcontent">
+        <h3>Order Message</h3>
+        <p id="noData"></p>
+        <br>
+        <p id="requestedGiveAmountMin"></p>
+        <br>
+        <p id="requestedGiveAmountMax"></p>
+        <br>
+        <p id="requestedGiveUnits"></p>
+        <br>
+        <p id="requestedDosageForm"></p>
+        <br>
+        <p id="providersPharmacyInstructions"></p>
+        <br>
+        <p id="providersAdministrationInstructions"></p>
+        <br>
+        <p id="allowSubstitutions"></p>
+    </div>
+
+    <div id="loader" class="lds-dual-ring hidden overlay"></div>
+<script type="text/javascript" src="../js/openTabs.js"></script>
+</body>
+</html>

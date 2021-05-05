@@ -1,0 +1,130 @@
+/*
+##################################################
+ This is the style page for the admin, patient, and doctor.html form.
+##################################################
+ YearMonthDayCreated: 2021-02-07
+ Project: Open Source Engine Integration
+ Program Name: menu.css
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: Harris SmartWorks
+ Version: 1.2
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)         Author             Revision      What was changed?
+ 2021/02/07                Aubrey Nickerson   1             Set up style
+ 2021/03/22                Bao Mai            2             Fix styling
+##################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+*/
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    height:100%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: space-around;
+}
+
+
+body{
+    background-color: #D8D8D8;
+
+}
+
+.header{
+    padding-left: 30px;
+}
+
+.menu-btn{
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 22px;
+    width:125px;
+    height:200px;
+    margin: 20px;
+    background-color: #048468;
+    padding: 20px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fa {
+    font-size: 40px;
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+}
+
+.fas{
+    font-size: larger;
+    color: white;
+}
+
+.lds-dual-ring.hidden {
+    display: none;
+}
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 50% auto;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.8);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}

@@ -1,0 +1,245 @@
+/*
+##################################################
+ This is the style page for the patientInfo.html form.
+##################################################
+ YearMonthDayCreated: 2021-02-07
+ Project: Open Source Engine Integration
+ Program Name: patientInfo.css
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.2
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)         Author             Revision      What was changed?
+ 2021/02/07                Bao Mai            1             Set up style
+ 2021/03/26                Aubrey Nickerson   2             Add tabs and table style to page
+##################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #D8D8D8;
+  }
+  .header{
+    height: 30px;
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #D8D8D8;
+  }
+  
+  .wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col{
+    width: 47%;
+  }
+  
+  .button{
+    background-color: #048468;
+    color: white;
+    padding: 10px 10px 10px 30px;
+    border-radius: 20px;
+  }
+  
+  .third{
+    border: .5px solid;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .first{
+    background-color: #046582;
+    color: white;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .bType{
+    text-align: center;
+  }
+  
+  .blood{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fas{
+    background-color: #048468;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+th {
+  color:white;
+  background:#048468;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:20px;
+  font-weight: 300;
+  padding:20px 10px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th.text-left {
+  text-align: left;
+  height: 10px;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+td {
+  background:#FFFFFF;
+  padding:20px 10px;
+  text-align:left;
+  height: 20px;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+  height: 20px;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+.lds-dual-ring.hidden {
+  display: none;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 50% auto;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,.8);
+  z-index: 999;
+  opacity: 1;
+  transition: all 0.5s;
+}

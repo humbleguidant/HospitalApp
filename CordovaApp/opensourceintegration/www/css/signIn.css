@@ -1,0 +1,318 @@
+/*
+##################################################
+ This is the style page for the index.html which is the user login form.
+##################################################
+ YearMonthDayCreated: 2020-11-09
+ Project: Open Source Engine Integration
+ Program Name: signIn.css
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.2
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)        Author             Revision      What was changed?
+ 2020/11/09               Aubrey Nickerson   1             Set up style
+ 2021/03/22               Bao Mai            2             Fix styling
+##################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+*/
+
+.blog-box1 .cdfik li {
+  float: left;
+  padding: 11.5px;
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+}
+.blog-box1 .sd-op {
+  background-color: #f58220;
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.blog-box1 .cdfik {
+  width: 100%;
+}
+.blog-box1 .pof-det {
+  padding: 10px;
+  padding-left: 10px;
+  padding-left: 60px;
+}
+.blog-box1 .pof-det b {
+  font-size: 13px;
+}
+.blog-box1 .pof-det p {
+  font-size: 13px;
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 5px;
+}
+.blog-box1 .sd-op b {
+  font-size: 22px;
+}
+/* ===================================== Basic CSS ================================== */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+.cp {
+  cursor: pointer;
+}
+p {
+  margin-bottom: 0px;
+  width: 100%;
+}
+.layy {
+  padding: 30px;
+}
+h2 {
+  width: 100%;
+}
+.no-padding {
+  padding: 0px;
+}
+.no-margin {
+  margin: 0px;
+}
+.sec-title {
+  text-align: center;
+}
+.sec-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: none;
+  font-family: robot-slab;
+}
+.sec-title p {
+  font-size: 14px;
+}
+body {
+  background: lightgray;
+  font-family: robot-slab;
+  font-size: 0.85rem;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1250px;
+  height: 30%;
+}
+.social {
+  position: fixed;
+  left: 0px;
+  top: 37%;
+  width: 60px;
+  height: 120px;
+  background-color: #EAEAEA;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+.social ul li {
+  list-style: none;
+  float: none;
+  font-size: 32px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+.social ul {
+  padding-left: 0px;
+}
+.image-box{
+  display: flex;
+  justify-content: center;
+  height:200px;
+
+}
+.image-box img{
+  align-self: center;
+  margin-top: 10%;
+}
+
+/* ===================================== Header Style  ================================== */
+.login-box {
+  padding: 20px;
+  background-color: #FFF;
+  float: inherit;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.login-box .title-box {
+  padding: 10px;
+  background-color:#042c54;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  margin-top: -38px;
+  text-align: center;
+  color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+.login-box .title-box h2 {
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+.login-box .title-box p {
+  font-size: 12px;
+}
+.login-box .row {
+  margin: 0px;
+  height: 100px;
+  margin-top: 35px;
+}
+.login-box .row input {
+  height: 60px;
+  border: 0px;
+  font-size: 22px;
+  border-bottom: 1px solid #CCC;
+}
+.login-box .row label {
+  margin-top: 7px;
+  margin-left: 9px;
+  float: left;
+}
+.login-box .row input[type=checkbox] {
+  float: left;
+}
+.login-box .chk-lab {
+  margin-top: 40px;
+}
+.login-box .chk-lab .colkd {
+  padding-top: 7px;
+  text-align: right;
+}
+.login-box .chk-lab .colkd a {
+  color:#048468;
+  font-size: 13px;
+}
+.login-box .submot-row {
+  text-align: center;
+  margin-top: 10px;
+}
+.login-box .submot-row .btn-sm {
+  margin-bottom: -55px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  width: 160px;
+  background-color: #048468;
+  border-color: #048468;
+}
+.coy-info {
+  padding: absolute;
+  float: right;
+  bottom: 0px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #D8D8D8;
+}
+input::-moz-placeholder {
+  font-size: 14px;
+  color: #D8D8D8;
+}
+input::-ms-input-placeholder {
+  font-size: 14px;
+  color: #D8D8D8;
+}
+.btn-success:hover {
+  background-color: #048468 !important;
+  border-color: #048468 !important;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #048468;
+  outline: 0;
+  box-shadow: none !important;
+  border-bottom: 2px solid #048468 !important;
+}
+
+label{
+  font-size: 18px
+}
+
+.lds-dual-ring.hidden {
+  display: none;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 50% auto;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,.8);
+  z-index: 999;
+  opacity: 1;
+  transition: all 0.5s;
+}

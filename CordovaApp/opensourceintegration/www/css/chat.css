@@ -1,0 +1,203 @@
+/*
+##################################################
+ This is the style page for the chat.html form.
+##################################################
+ YearMonthDayCreated: 2021-02-07
+ Project: Open Source Engine Integration
+ Program Name: chat.css
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.1
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)         Author             Revision      What was changed?
+ 2021/02/07                Aubrey Nickerson   1             Set up style
+##################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+*/
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background-color: #D8D8D8;
+}
+
+.header{
+    height: 5%;
+    width: 100%;
+    margin-top: 0%;
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #D8D8D8;
+}
+
+.fas{
+    background-color: #048468;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#messages{
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-family: normal;
+    font-size: 16px;
+}
+
+.break{
+
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: lightsteelblue;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.box-footer{
+    width: 90%;
+    height: 20px;
+    bottom: 0;
+    position: fixed;
+    margin-top: 70%;
+    margin-bottom: 10%;
+}
+.input-group{
+    width: 90%;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    align-content: center;
+    margin-top: 70%;
+    margin-bottom: 10%;
+}
+
+#message{
+    width: 75%;
+    height: 50px;
+    font-family: normal;
+    font-size: 16px;
+}
+
+#button {
+    text-align:center;
+    display:inline-block;
+    width:22%;
+    vertical-align: top;
+    height:65px;
+}
+
+#innerbutton{
+    margin-left: 5%;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.lds-dual-ring.hidden {
+    display: none;
+}
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 50% auto;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.8);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+

@@ -1,0 +1,1258 @@
+{
+    "GT1": {
+    "GT1.0":"Guarantor",
+    "GT1.1" : "SetID - Guarantor",
+    "GT1.2" : {
+        "GT1.2.0" : "Guarantor Number",
+        "GT1.2.1" : "ID",
+        "GT1.2.2" : "Check Digit",
+        "GT1.2.3" : "Code Identifying The Check Digit Scheme Employed",
+        "GT1.2.4" : {
+            "GT1.2.4.0" : "Assigning Authority",
+            "GT1.2.4.1" : "Namespace ID",
+            "GT1.2.4.2" : "Universal ID",
+            "GT1.2.4.3" : "Universal ID Type"
+        },
+        "GT1.2.5" : "Identifier Type Code",
+        "GT1.2.6" : {
+            "GT1.2.6.0" : "Assigning Facility",
+            "GT1.2.6.1" : "Namespace ID",
+            "GT1.2.6.2" : "Universal ID",
+            "GT1.2.6.3" : "Universal ID Type"
+        }
+    },
+    "GT1.3" :{
+        "GT1.3.0" : "Guarantor Name",
+        "GT1.3.1" : "Family Name",
+        "GT1.3.2" : "Given Name",
+        "GT1.3.3" : "Middle Initial Or Name",
+        "GT1.3.4" : "Suffix",
+        "GT1.3.5" : "Prefix",
+        "GT1.3.6" : "Degree",
+        "GT1.3.7" : "Name Type Code",
+        "GT1.3.8" : "Name Representation Code"
+    }, 
+    "GT1.4" : {
+        "GT1.4.0" : "Guarantor Spouse Name",
+        "GT1.4.1" : "Family Name",
+        "GT1.4.2" : "Given Name",
+        "GT1.4.3" : "Middle Initial Or Name",
+        "GT1.4.4" : "Suffix",
+        "GT1.4.5" : "Prefix",
+        "GT1.4.6" : "Degree",
+        "GT1.4.7" : "Name Type Code",
+        "GT1.4.8" : "Name Representation Code"
+    },
+    "GT1.5" : {
+        "GT1.5.0" : "Guarantor Address",
+        "GT1.5.1" : "Street Address",
+        "GT1.5.2" : "Other Designation",
+        "GT1.5.3" : "City",
+        "GT1.5.4" : "State Or Province",
+        "GT1.5.5" : "Zip Or Postal Code",
+        "GT1.5.6" : "Country",
+        "GT1.5.7" : "Address Type",
+        "GT1.5.8" : "Other Geographic Designation",
+        "GT1.5.9" : "Country/Parish Code",
+        "GT1.5.10" : "Census Tract"
+    },
+    "GT1.6" : {
+        "GT1.6.0" : "Guarantor Ph Num-Home",
+        "GT1.6.1" : "Telephone Number",
+        "GT1.6.2" : "Telecommunication Use Code",
+        "GT1.6.3" : "Telecommunication Equipment Type",
+        "GT1.6.4" : "Email Address",
+        "GT1.6.5" : "Country Code",
+        "GT1.6.6" : "Area/City Code",
+        "GT1.6.7" : "Phone Number",
+        "GT1.6.8" : "Extension",
+        "GT1.6.9" : "Any Text"
+    },
+    "GT1.7" : {
+        "GT1.7.0" : "Guarantor Ph Num-business",
+        "GT1.7.1" : "Telephone Number",
+        "GT1.7.2" : "Telecommunication Use Code",
+        "GT1.7.3" : "Telecommunication Equipment Type",
+        "GT1.7.4" : "Email Address",
+        "GT1.7.5" : "Country Code",
+        "GT1.7.6" : "Area/City Code",
+        "GT1.7.7" : "Phone Number",
+        "GT1.7.8" : "Extension",
+        "GT1.7.9" : "Any Text"
+    },
+    "GT1.8" : {
+        "GT1.8.0" : "Guarantor Date/Time of Birth",
+        "GT1.8.1" : "Time Of An Event"
+        
+    },
+    "GT1.9" : "Guarantor Sex",
+    "GT1.10" : "Guarantor Type",
+    "GT1.11" : "Guarantor Relationship",
+    "GT1.12" : "Guarantor SSN",
+    "GT1.13" : "Guarantor Date - Begin",
+    "GT1.14" : "Guarantor Date - End",
+    "GT1.15" : "Guarantor Priority",
+    "GT1.16" : {
+        "GT1.16.0" : "Guarantor Employer Name",
+        "GT1.16.1" : "Family Name",
+        "GT1.16.2" : "Given Name",
+        "GT1.16.3" : "Middle Initial Or Name",
+        "GT1.16.4" : "Suffix",
+        "GT1.16.5" : "Prefix",
+        "GT1.16.6" : "Degree",
+        "GT1.16.7" : "Name Type Code",
+        "GT1.16.8" : "Name Representation Code"
+    },
+    "GT1.17" : {
+        "GT1.17.0" : "Guarantor Employer Address",
+        "GT1.17.1" : "Street Address",
+        "GT1.17.2" : "Other Designation",
+        "GT1.17.3" : "City",
+        "GT1.17.4" : "State Or Province",
+        "GT1.17.5" : "Zip Or Postal Code",
+        "GT1.17.6" : "Country",
+        "GT1.17.7" : "Address Type",
+        "GT1.17.8" : "Other Geographic Designation",
+        "GT1.17.9" : "Country/Parish Code",
+        "GT1.17.10" : "Census Tract"
+    },
+    "GT1.18" : {
+        "GT1.18.0" : "Guarantor Employ Phone Number",
+        "GT1.18.1" : "Telephone Number",
+        "GT1.18.2" : "Telecommunication Use Code",
+        "GT1.18.3" : "Telecommunication Equipment Type",
+        "GT1.18.4" : "Email Address",
+        "GT1.18.5" : "Country Code",
+        "GT1.18.6" : "Area/City Code",
+        "GT1.18.7" : "Phone Number",
+        "GT1.18.8" : "Extension",
+        "GT1.18.9" : "Any Text"
+    },
+    "GT1.19" : {
+        "GT1.19.0" : "Guarantor Employee ID Number",
+        "GT1.19.1" : "ID",
+        "GT1.19.2" : "Check Digit",
+        "GT1.19.3" : "Code Identifying The Check Digit Scheme Employed",
+        "GT1.19.4" : {
+            "GT1.19.4.0" : "Assigning Authority",
+            "GT1.19.4.1" : "Namespace ID",
+            "GT1.19.4.2" : "Universal ID",
+            "GT1.19.4.3" : "Universal ID Type"
+        },
+        "GT1.19.5" : "Identifier Type Code",
+        "GT1.19.6" : {
+            "GT1.19.6.0" : "Assigning Facility",
+            "GT1.19.6.1" : "Namespace ID",
+            "GT1.19.6.2" : "Universal ID",
+            "GT1.19.6.3" : "Universal ID Type"
+        }
+    },
+    "GT1.20" : "Guarantor Employment Status",
+    "GT1.21" : {
+        "GT1.21.0" : "Guarantor Organization",
+        "GT1.21.1" : "Organization Name",
+        "GT1.21.2" : "Organization Name Type Code",
+        "GT1.21.3" : "ID",
+        "GT1.21.4" : "Check Digit",
+        "GT1.21.5" : "Code Identifying The Check Digit Scheme Employed",
+        "GT1.21.6" : {
+            "GT1.21.6.0" : "Assigning Authority",
+            "GT1.21.6.1" : "Namespace ID",
+            "GT1.21.6.2" : "Universal ID",
+            "GT1.21.6.3" : "Universal ID Type"
+        },
+        "GT1.21.7" : "Identifier Type Code",
+        "GT1.21.8" : {
+            "GT1.21.8.0" : "Assigning Facility",
+            "GT1.21.8.1" : "Namespace ID",
+            "GT1.21.8.2" : "Universal ID",
+            "GT1.21.8.3" : "Universal ID Type"
+        }
+    },
+    "GT1.22" : "Guarantor Billing Hold Flag",
+    "GT1.23" : {
+        "GT1.23.0" : "Guarantor Credit Rating Code",
+        "GT1.23.1" : "identifier",
+        "GT1.23.2" : "text",
+        "GT1.23.3" : "name Of Coding System",
+        "GT1.23.4" : "alternate Identifier",
+        "GT1.23.5" : "alternate Text",
+        "GT1.23.6" : "name Of Alternate Coding System"
+    },
+    "GT1.24" : {
+        "GT1.24.0" : "Guarantor Death Date And Time",
+        "GT1.24.1" : "Time of An Event"
+    },
+    "GT1.25" : "Guarantor Death Flag",
+    "GT1.26" : {
+        "GT1.26.0" : "Guarantor Charge Adjustment Code",
+        "GT1.26.1" : "identifier",
+        "GT1.26.2" : "text",
+        "GT1.26.3" : "name Of Coding System",
+        "GT1.26.4" : "alternate Identifier",
+        "GT1.26.5" : "alternate Text",
+        "GT1.26.6" : "name Of Alternate Coding System"
+    },
+    "GT1.27" : {
+        "GT1.27.0" : "Guarantor Household Annual Income",
+        "GT1.27.1" : "Price",
+        "GT1.27.2" : "Price Type",
+        "GT1.27.3" : "From Value",
+        "GT1.27.4" : "To Value",
+        "GT1.27.5" : "Range Units",
+        "GT1.27.6" : "Range Type"
+    },
+    "GT1.28" : "Guarantor Household Size",
+    "GT1.29" : {
+        "GT1.29.0" : "Guarantor Employer ID Number",
+        "GT1.29.1" : "ID",
+        "GT1.29.2" : "Check Digit",
+        "GT1.29.3" : "Code Identifying The Check Digit Scheme Employed",
+        "GT1.29.4" : {
+            "GT1.29.4.0" : "Assigning Authority",
+            "GT1.29.4.1" : "Namespace ID",
+            "GT1.29.4.2" : "Universal ID",
+            "GT1.29.4.3" : "Universal ID Type"
+        },
+        "GT1.29.5" : "Identifier Type Code",
+        "GT1.29.6" : {
+            "GT1.19.6.0" : "Assigning Facility",
+            "GT1.19.6.1" : "Namespace ID",
+            "GT1.19.6.2" : "Universal ID",
+            "GT1.19.6.3" : "Universal ID Type"
+        }
+    },
+    "GT1.30" : "Guarantor Marital Status Code",
+    "GT1.31" : "Guarantor Hire Effective Date",
+    "GT1.32" : "Employment Stop Date",
+    "GT1.33" : "Living Dependency",
+    "GT1.34" : "Ambulatory Status Code",
+    "GT1.35" : "Citizenship",
+    "GT1.36" : {
+        "GT1.36.0" : "Primary Language",
+        "GT1.36.1" : "identifier",
+        "GT1.36.2" : "text",
+        "GT1.36.3" : "name Of Coding System",
+        "GT1.36.4" : "alternate Identifier",
+        "GT1.36.5" : "alternate Text",
+        "GT1.36.6" : "name Of Alternate Coding System"
+    },
+    "GT1.37" : "Living Arrangment",
+    "GT1.38" : {
+        "GT1.38.0" : "Publicity Indicator",
+        "GT1.38.1" : "identifier",
+        "GT1.38.2" : "text",
+        "GT1.38.3" : "name Of Coding System",
+        "GT1.38.4" : "alternate Identifier",
+        "GT1.38.5" : "alternate Text",
+        "GT1.38.6" : "name Of Alternate Coding System"
+    },
+    "GT1.39" : "Protection Indicator",
+    "GT1.40" : "Student Indicator",
+    "GT1.41" : "Religion",
+    "GT1.42" : {
+        "GT1.42.0" : "Mother's Maiden Name",
+        "GT1.42.1" : "Family Name",
+        "GT1.42.2" : "Given Name",
+        "GT1.42.3" : "Middle Initial Or Name",
+        "GT1.42.4" : "Suffix",
+        "GT1.42.5" : "Prefix",
+        "GT1.42.6" : "Degree",
+        "GT1.42.7" : "Name Type Code",
+        "GT1.42.8" : "Name Representation Code"
+    },
+    "GT1.43" : {
+        "GT1.43.0" : "Nationality Code",
+        "GT1.43.1" : "identifier",
+        "GT1.43.2" : "text",
+        "GT1.43.3" : "name Of Coding System",
+        "GT1.43.4" : "alternate Identifier",
+        "GT1.43.5" : "alternate Text",
+        "GT1.43.6" : "name Of Alternate Coding System"
+    },
+    "GT1.44" : "Ethic Group",
+    "GT1.45" : {
+        "GT1.45.0" : "Contact Person's Name",
+        "GT1.45.1" : "Family Name",
+        "GT1.45.2" : "Given Name",
+        "GT1.45.3" : "Middle Initial Or Name",
+        "GT1.45.4" : "Suffix",
+        "GT1.45.5" : "Prefix",
+        "GT1.45.6" : "Degree",
+        "GT1.45.7" : "Name Type Code",
+        "GT1.45.8" : "Name Representation Code"
+    },
+    "GT1.46" : {
+        "GT1.46.0" : "Contact Person's Telephone Number",
+        "GT1.46.1" : "Telephone Number",
+        "GT1.46.2" : "Telecommunication Use Code",
+        "GT1.46.3" : "Telecommunication Equipment Type",
+        "GT1.46.4" : "Email Address",
+        "GT1.46.5" : "Country Code",
+        "GT1.46.6" : "Area/City Code",
+        "GT1.46.7" : "Phone Number",
+        "GT1.46.8" : "Extension",
+        "GT1.46.9" : "Any Text"
+    },
+    "GT1.47" : {
+        "GT1.47.0" : "Contact Reason",
+        "GT1.47.1" : "identifier",
+        "GT1.47.2" : "text",
+        "GT1.47.3" : "name Of Coding System",
+        "GT1.47.4" : "alternate Identifier",
+        "GT1.47.5" : "alternate Text",
+        "GT1.47.6" : "name Of Alternate Coding System"
+    },
+    "GT1.48" : "Contact Relationship Code",
+    "GT1.49" : "Job Title",
+    "GT1.50" : {
+        "GT1.50.0" : "Job Code/Class",
+        "GT1.50.1" : "Job Code",
+        "GT1.50.2" : "Job Class"
+    },
+    "GT1.51" : {
+        "GT1.51.0" : "Guarantor Employer's Organization name",
+        "GT1.51.1" : "Organization Name",
+        "GT1.51.2" : "Organization Name Type Code",
+        "GT1.51.3" : "ID",
+        "GT1.51.4" : "Check Digit",
+        "GT1.51.5" : "Code Identifying The Check Digit Scheme Employed",
+        "GT1.51.6" : {
+            "GT1.51.6.0" : "Assigning Authority",
+            "GT1.51.6.1" : "Namespace ID",
+            "GT1.51.6.2" : "Universal ID",
+            "GT1.51.6.3" : "Universal ID Type"
+        },
+        "GT1.51.7" : "Identifier Type Code",
+        "GT1.51.8" : {
+            "GT1.51.8.0" : "Assigning Facility",
+            "GT1.51.8.1" : "Namespace ID",
+            "GT1.51.8.2" : "Universal ID",
+            "GT1.51.8.3" : "Universal ID Type"
+        }
+    },
+    "GT1.52" : "Handicap",
+    "GT1.53" : "Job Status",
+    "GT1.54" : {
+        "GT1.54.0" : "Guarantor Fiancial Class",
+        "GT1.54.1" : "Financial Class",
+        "GT1.54.2" : "Effective Date"
+    },
+    "GT1.55" : "Guarantor Race"
+    },
+    "AL1": {
+        "AL1.0": "Patient Allergy Information",
+        "AL1.1": "SetID - AL1",
+        "AL1.2": "Allergy Type",
+        "AL1.3" :{
+            "AL1.3.0" : "Allergy Code/Mnemonic/Description",
+            "AL1.3.1" : "Edentifier",
+            "AL1.3.2" : "Text",
+            "AL1.3.3" : "Name Of Coding System",
+            "AL1.3.4" : "Alternate Identifier",
+            "AL1.3.5" : "Alternate Text",
+            "AL1.3.6" : "Name Of Alternate Coding System"
+        }, 
+        "AL1.4" : "Allergy Severity",
+        "AL1.5" : "Allergy Reaction",
+        "AL1.6" : "Identification Date"
+    },
+    "ORC": {
+        "ORC.0": "Common order segment",
+        "ORC.1" : "Order Control",
+        "ORC.2" : {
+            "ORC.2.0" : "Place Order Number",
+            "ORC.2.1" : "Entity Identifier",
+            "ORC.2.2" : "Namespace ID",
+            "ORC.2.3" : "Universal ID",
+            "ORC.2.4" : "Universal ID Type"
+        },
+        "ORC.3" :{
+            "ORC.3.0" : "Filler Order Number",
+            "ORC.3.1" : "Entity Identifier",
+            "ORC.3.2" : "Namespace ID",
+            "ORC.3.3" : "Universal ID",
+            "ORC.3.4" : "Universal ID Type"
+        }, 
+        "ORC.4" : {
+            "ORC.4.0" : "Placer Group Number",
+            "ORC.4.1" : "Entity Identifier",
+            "ORC.4.2" : "Namespace ID",
+            "ORC.4.3" : "Universal ID",
+            "ORC.4.4" : "Universal ID Type"
+        },
+        "ORC.5" : "Order Status",
+        "ORC.6" : "Response Flag",
+        "ORC.7" : {
+            "ORC.7.0" : "Quality/Timing",
+            "ORC.7.1" : {
+                "ORC.7.1.0" : "Quantity",
+                "ORC.7.1.1" : "Quantity",
+                "ORC.7.1.2" : "Units"
+            },
+            "ORC.7.2" : {
+                "ORC.7.2.0" : "Interval",
+                "ORC.7.2.1" : "Repeat Pattern",
+                "ORC.7.2.2" : "Explicit Time Interval"
+            },
+            "ORC.7.3" : "Duration",
+            "ORC.7.4" : {
+                "ORC.7.4.0" : "Start Date/time",
+                "ORC.7.4.1" : "Time of An Event"
+            },
+            "ORC.7.5" : {
+                "ORC.7.5.0" : "End Date/time",
+                "ORC.7.5.1" : "Time of An Event"
+            },
+            "ORC.7.6" : "Priority",
+            "ORC.7.7" : "Condition",
+            "ORC.7.8" : "Text",
+            "ORC.7.9" : "Conjuction",
+            "ORC.7.10" : {
+                "ORC.7.10.0" : "Order Sequencing",
+                "ORC.7.10.1" : "Sequence/result Flag",
+                "ORC.7.10.2" : "Placer Order Number Entity Identifier",
+                "ORC.7.10.3" : "Placer Order Nubmer Namespace ID",
+                "ORC.7.10.4" : "Filler Order Number Entity Identifier",
+                "ORC.7.10.5" : "Filler Order Number Namespace ID",
+                "ORC.7.10.6" : "Sequence Condition Value",
+                "ORC.7.10.7" : "Maximum Number Of Repeats",
+                "ORC.7.10.8" : "Placer Order Number Universal ID",
+                "ORC.7.10.9" : "Placer Order Number Universal ID Type",
+                "ORC.7.10.10" : "Filler Order Number Universal ID",
+                "ORC.7.10.11" : "Filler Order Number Universal ID Type"
+            }
+        },
+        "ORC.8" : {
+            "ORC.8.0" : "Parent Order",
+            "ORC.8.1" : "Parent's Placer Order Number",
+            "ORC.8.2" : "Parent's Filler Order Number"
+            
+        },
+        "ORC.9" : {
+            "ORC.9.0" : "Date/Time of Transaction",
+            "ORC.9.1" : "Time Of An Event"
+        },
+        "ORC.10" : {
+            "ORC.10.0" : "Entered By",
+            "ORC.10.1" : "ID Number",
+            "ORC.10.2" : "Family Name",
+            "ORC.10.3" : "Given Name",
+            "ORC.10.4" : "Middle Initial Or Name",
+            "ORC.10.5" : "Suffix",
+            "ORC.10.6" : "Prefix",
+            "ORC.10.7" : "Degree",
+            "ORC.10.8" : "Source Table",
+            "ORC.10.9" : {
+                "ORC.10.9.0" : "Assigning Authority",
+                "ORC.10.9.1" : "Namespace ID",
+                "ORC.10.9.2" : "Universal ID",
+                "ORC.10.9.3" : "Universal ID Type"
+            },
+            "ORC.10.10" : "Name Type",
+            "ORC.10.11" : "Identifier Check Digit",
+            "ORC.10.12" : "Code Identifying The Check Digit Scheme Employed",
+            "ORC.10.13" : "Identifier Type Code",
+            "ORC.10.14" : {
+                "ORC.10.14.0" : "Assigning Facility ID",
+                "ORC.10.14.1" : "Namespace ID",
+                "ORC.10.14.2" : "Universal ID",
+                "ORC.10.14.3" : "Universal ID Type"
+            }
+        },
+        "ORC.11" : {
+            "ORC.11.0" : "Verified By",
+            "ORC.11.1" : "ID Number",
+            "ORC.11.2" : "Family Name",
+            "ORC.11.3" : "Given Name",
+            "ORC.11.4" : "Middle Initial Or Name",
+            "ORC.11.5" : "Suffix",
+            "ORC.11.6" : "Prefix",
+            "ORC.11.7" : "Degree",
+            "ORC.11.8" : "Source Table",
+            "ORC.11.9" : {
+                "ORC.11.9.0" : "Assigning Authority",
+                "ORC.11.9.1" : "Namespace ID",
+                "ORC.11.9.2" : "Universal ID",
+                "ORC.11.9.3" : "Universal ID Type"
+            },
+            "ORC.11.10" : "Name Type",
+            "ORC.11.11" : "Identifier Check Digit",
+            "ORC.11.12" : "Code Identifying The Check Digit Scheme Employed",
+            "ORC.11.13" : "Identifier Type Code",
+            "ORC.11.14" : {
+                "ORC.11.14.0" : "Assigning Facility ID",
+                "ORC.11.14.1" : "Namespace ID",
+                "ORC.11.14.2" : "Universal ID",
+                "ORC.11.14.3" : "Universal ID Type"
+            }
+        },
+        "ORC.12" : {
+            "ORC.12.0" : "Ordering Provider",
+            "ORC.12.1" : "ID Number",
+            "ORC.12.2" : "Family Name",
+            "ORC.12.3" : "Given Name",
+            "ORC.12.4" : "Middle Initial Or Name",
+            "ORC.12.5" : "Suffix",
+            "ORC.12.6" : "Prefix",
+            "ORC.12.7" : "Degree",
+            "ORC.12.8" : "Source Table",
+            "ORC.12.9" : {
+                "ORC.12.9.0" : "Assigning Authority",
+                "ORC.12.9.1" : "Namespace ID",
+                "ORC.12.9.2" : "Universal ID",
+                "ORC.12.9.3" : "Universal ID Type"
+            },
+            "ORC.12.10" : "Name Type",
+            "ORC.12.11" : "Identifier Check Digit",
+            "ORC.12.12" : "Code Identifying The Check Digit Scheme Employed",
+            "ORC.12.13" : "Identifier Type Code",
+            "ORC.12.14" : {
+                "ORC.12.14.0" : "Assigning Facility ID",
+                "ORC.12.14.1" : "Namespace ID",
+                "ORC.12.14.2" : "Universal ID",
+                "ORC.12.14.3" : "Universal ID Type"
+            }
+        },
+        "ORC.13" : {
+            "ORC.13.0" : "Enterer's Location",
+            "ORC.13.1" : "Point Of Care",
+            "ORC.13.2" : "Room",
+            "ORC.13.3" : "Bed",
+            "ORC.13.4" : "Facility",
+            "ORC.13.5" : "Location Status",
+            "ORC.13.6" : "Person Location Type",
+            "ORC.13.7" : "Building",
+            "ORC.13.8" : "Floor",
+            "ORC.13.9" : "Location Type"
+        },
+        "ORC.14" : {
+            "ORC.14.0" : "Call Back Phone Number",
+            "ORC.14.1" : "Telephone Number",
+            "ORC.14.2" : "Telecommunication Use Code",
+            "ORC.14.3" : "Telecommunication Equipment Type",
+            "ORC.14.4" : "Email Address",
+            "ORC.14.5" : "Country Code",
+            "ORC.14.6" : "Area/City Code",
+            "ORC.14.7" : "Phone Number",
+            "ORC.14.8" : "Extension",
+            "ORC.14.9" : "Any Text"
+        },
+        "ORC.15" : {
+            "ORC.15.0" : "Order Effective Date/Time",
+            "ORC.15.1" : "Time Of An Event"
+        },
+        "ORC.16" : {
+            "ORC.16.0" : "Order Control Code Reason",
+            "ORC.16.1" : "identifier",
+            "ORC.16.2" : "text",
+            "ORC.16.3" : "name Of Coding System",
+            "ORC.16.4" : "alternate Identifier",
+            "ORC.16.5" : "alternate Text",
+            "ORC.16.6" : "name Of Alternate Coding System"
+        },
+        "ORC.17" : {
+            "ORC.17.0" : "Entering Organization",
+            "ORC.17.1" : "identifier",
+            "ORC.17.2" : "text",
+            "ORC.17.3" : "name Of Coding System",
+            "ORC.17.4" : "alternate Identifier",
+            "ORC.17.5" : "alternate Text",
+            "ORC.17.6" : "name Of Alternate Coding System"
+        },
+        "ORC.18" : {
+            "ORC.18.0" : "Entering Device",
+            "ORC.18.1" : "identifier",
+            "ORC.18.2" : "text",
+            "ORC.18.3" : "name Of Coding System",
+            "ORC.18.4" : "alternate Identifier",
+            "ORC.18.5" : "alternate Text",
+            "ORC.18.6" : "name Of Alternate Coding System"
+        },
+        "ORC.19" : {
+            "ORC.19.0" : "Action By",
+            "ORC.19.1" : "ID Number",
+            "ORC.19.2" : "Family Name",
+            "ORC.19.3" : "Given Name",
+            "ORC.19.4" : "Middle Initial Or Name",
+            "ORC.19.5" : "Suffix",
+            "ORC.19.6" : "Prefix",
+            "ORC.19.7" : "Degree",
+            "ORC.19.8" : "Source Table",
+            "ORC.19.9" : {
+                "ORC.19.9.0" : "Assigning Authority",
+                "ORC.19.9.1" : "Namespace ID",
+                "ORC.19.9.2" : "Universal ID",
+                "ORC.19.9.3" : "Universal ID Type"
+            },
+            "ORC.19.10" : "Name Type",
+            "ORC.19.11" : "Identifier Check Digit",
+            "ORC.19.12" : "Code Identifying The Check Digit Scheme Employed",
+            "ORC.19.13" : "Identifier Type Code",
+            "ORC.19.14" : {
+                "ORC.19.14.0" : "Assigning Facility ID",
+                "ORC.19.14.1" : "Namespace ID",
+                "ORC.19.14.2" : "Universal ID",
+                "ORC.19.14.3" : "Universal ID Type"
+            }
+        }
+    },
+    "OBR": {
+        "OBR.0": "Observation request segment",
+        "OBR.1" : "Set ID - Observation Request",
+        "OBR.2" : {
+            "OBR.2.0" : "Place Order Number",
+            "OBR.2.1" : "Entity Identifier",
+            "OBR.2.2" : "Namespace ID",
+            "OBR.2.3" : "Universal ID",
+            "OBR.2.4" : "Universal ID Type"
+        },
+        "OBR.3" :{
+            "OBR.3.0" : "Filler Order Number",
+            "OBR.3.1" : "Entity Identifier",
+            "OBR.3.2" : "Namespace ID",
+            "OBR.3.3" : "Universal ID",
+            "OBR.3.4" : "Universal ID Type"
+        }, 
+        "OBR.4" : {
+            "OBR.4.0" : "Universal Service Identifier",
+            "OBR.4.1" : "identifier",
+            "OBR.4.2" : "text",
+            "OBR.4.3" : "name Of Coding System",
+            "OBR.4.4" : "alternate Identifier",
+            "OBR.4.5" : "alternate Text",
+            "OBR.4.6" : "name Of Alternate Coding System"
+        },
+        "OBR.5" : "Priority",
+        "OBR.6" : {
+            "OBR.6.0" : "Requested Date/Time",
+            "OBR.6.1" : "Time Of An Event"
+        },
+        "OBR.7" : {
+            "OBR.7.0" : "Observation Date/Time",
+            "OBR.7.1" : "Time Of An Event"
+        },
+        "OBR.8" : {
+            "OBR.8.0" : "Observation End Date/Time",
+            "OBR.8.1" : "Time Of An Event"   
+        },
+        "OBR.9" : {
+            "OBR.9.0" : "Collection Volume",
+            "OBR.9.1" : "Quantity",
+            "OBR.9.2" : "Units"
+        },
+        "OBR.10" : {
+            "OBR.10.0" : "Collector Identifier",
+            "OBR.10.1" : "ID Number",
+            "OBR.10.2" : "Family Name",
+            "OBR.10.3" : "Given Name",
+            "OBR.10.4" : "Middle Initial Or Name",
+            "OBR.10.5" : "Suffix",
+            "OBR.10.6" : "Prefix",
+            "OBR.10.7" : "Degree",
+            "OBR.10.8" : "Source Table",
+            "OBR.10.9" : {
+                "OBR.10.9.0" : "Assigning Authority",
+                "OBR.10.9.1" : "Namespace ID",
+                "OBR.10.9.2" : "Universal ID",
+                "OBR.10.9.3" : "Universal ID Type"
+            },
+            "OBR.10.10" : "Name Type",
+            "OBR.10.11" : "Identifier Check Digit",
+            "OBR.10.12" : "Code Identifying The Check Digit Scheme Employed",
+            "OBR.10.13" : "Identifier Type Code",
+            "OBR.10.14" : {
+                "OBR.10.14.0" : "Assigning Facility ID",
+                "OBR.10.14.1" : "Namespace ID",
+                "OBR.10.14.2" : "Universal ID",
+                "OBR.10.14.3" : "Universal ID Type"
+            }
+        },
+        "OBR.11" : "Specimen Action Code",
+        "OBR.12" : {
+            "OBR.12.0" : "Danger Code",
+            "OBR.12.1" : "identifier",
+            "OBR.12.2" : "text",
+            "OBR.12.3" : "name Of Coding System",
+            "OBR.12.4" : "alternate Identifier",
+            "OBR.12.5" : "alternate Text",
+            "OBR.12.6" : "name Of Alternate Coding System"
+        },
+        "OBR.13" : "Relevant Clinical Information",
+        "OBR.14" : {
+            "OBR.14.0" : "Specimen Received Date/Time",
+            "OBR.14.1" : "Time Of An Event"
+        },
+        "OBR.15" : {
+            "OBR.15.0" : "Specimen Source",
+            "OBR.15.1" : "Specimen Source Name Or Code",
+            "OBR.15.2" : "Additives",
+            "OBR.15.3" : "Freetext",
+            "OBR.15.4" : "Body Site",
+            "OBR.15.5" : "Site Modifier",
+            "OBR.15.6" : "Collection Modifier Method Code"
+        },
+        "OBR.16" : {
+            "OBR.16.0" : "Ordering Provider",
+            "OBR.16.1" : "ID Number",
+            "OBR.16.2" : "Family Name",
+            "OBR.16.3" : "Given Name",
+            "OBR.16.4" : "Middle Initial Or Name",
+            "OBR.16.5" : "Suffix",
+            "OBR.16.6" : "Prefix",
+            "OBR.16.7" : "Degree",
+            "OBR.16.8" : "Source Table",
+            "OBR.16.9" : {
+                "OBR.16.9.0" : "Assigning Authority",
+                "OBR.16.9.1" : "Namespace ID",
+                "OBR.16.9.2" : "Universal ID",
+                "OBR.16.9.3" : "Universal ID Type"
+            },
+            "OBR.16.10" : "Name Type",
+            "OBR.16.11" : "Identifier Check Digit",
+            "OBR.16.12" : "Code Identifying The Check Digit Scheme Employed",
+            "OBR.16.13" : "Identifier Type Code",
+            "OBR.16.14" : {
+                "OBR.16.14.0" : "Assigning Facility ID",
+                "OBR.16.14.1" : "Namespace ID",
+                "OBR.16.14.2" : "Universal ID",
+                "OBR.16.14.3" : "Universal ID Type"
+            }
+        },
+        "OBR.17" : {
+            "OBR.17.0" : "Order Callback Phone Number",
+            "OBR.17.1" : "Telephone Number",
+            "OBR.17.2" : "Telecommunication Use Code",
+            "OBR.17.3" : "Telecommunication Equipment Type",
+            "OBR.17.4" : "Email Address",
+            "OBR.17.5" : "Country Code",
+            "OBR.17.6" : "Area/City Code",
+            "OBR.17.7" : "Phone Number",
+            "OBR.17.8" : "Extension",
+            "OBR.17.9" : "Any Text"
+        },
+        "OBR.18" : "Placer Field 1",
+        "OBR.19" : "Placer Field 2",
+        "OBR.20" : "Filler Field 1",
+        "OBR.21" : "Filler Field 2",
+        "OBR.22" : {
+            "OBR.22.0" : "Results Rpt/Status Chng - Date/Time",
+            "OBR.22.1" : "Time Of An Event"
+        },
+        "OBR.23" : {
+            "OBR.23.0" : "Charge To Practice",
+            "OBR.23.1" : "Dollar Amount",
+            "OBR.23.2" : "Charge Code"
+        },
+        "OBR.24" : "Diagnostic Service Section ID",
+        "OBR.25" : "Result Status",
+        "OBR.26" : {
+            "OBR.26.0" : "Parent Result",
+            "OBR.26.1" : "OBX-3 Observation Identifier Of Parent Result",
+            "OBR.26.2" : "OBX-4 Sub-ID Of Parent Result",
+            "OBR.26.3" : "Part Of OBX-5 Observation Result From Parent"
+
+        },
+        "OBR.27" : {
+            "OBR.27.0" : "Quality/Timing",
+            "OBR.27.1" : {
+                "OBR.27.1.0" : "Quantity",
+                "OBR.27.1.1" : "Quantity",
+                "OBR.27.1.2" : "Units"
+            },
+            "OBR.27.2" : {
+                "OBR.27.2.0" : "Interval",
+                "OBR.27.2.1" : "Repeat Pattern",
+                "OBR.27.2.2" : "Explicit Time Interval"
+            },
+            "OBR.27.3" : "Duration",
+            "OBR.27.4" : {
+                "OBR.27.4.0" : "Start Date/time",
+                "OBR.27.4.1" : "Time of An Event"
+            },
+            "OBR.27.5" : {
+                "OBR.27.5.0" : "End Date/time",
+                "OBR.27.5.1" : "Time of An Event"
+            },
+            "OBR.27.6" : "Priority",
+            "OBR.27.7" : "Condition",
+            "OBR.27.8" : "Text",
+            "OBR.27.9" : "Conjuction",
+            "OBR.27.10" : {
+                "OBR.27.10.0" : "Order Sequencing",
+                "OBR.27.10.1" : "Sequence/result Flag",
+                "OBR.27.10.2" : "Placer Order Number Entity Identifier",
+                "OBR.27.10.3" : "Placer Order Nubmer Namespace ID",
+                "OBR.27.10.4" : "Filler Order Number Entity Identifier",
+                "OBR.27.10.5" : "Filler Order Number Namespace ID",
+                "OBR.27.10.6" : "Sequence Condition Value",
+                "OBR.27.10.7" : "Maximum Number Of Repeats",
+                "OBR.27.10.8" : "Placer Order Number Universal ID",
+                "OBR.27.10.9" : "Placer Order Number Universal ID Type",
+                "OBR.27.10.10" : "Filler Order Number Universal ID",
+                "OBR.27.10.11" : "Filler Order Number Universal ID Type"
+            }
+        },
+        "OBR.28" : {
+            "OBR.28.0" : "Result Copies To",
+            "OBR.28.1" : "ID Number",
+            "OBR.28.2" : "Family Name",
+            "OBR.28.3" : "Given Name",
+            "OBR.28.4" : "Middle Initial Or Name",
+            "OBR.28.5" : "Suffix",
+            "OBR.28.6" : "Prefix",
+            "OBR.28.7" : "Degree",
+            "OBR.28.8" : "Source Table",
+            "OBR.28.9" : {
+                "OBR.28.9.0" : "Assigning Authority",
+                "OBR.28.9.1" : "Namespace ID",
+                "OBR.28.9.2" : "Universal ID",
+                "OBR.28.9.3" : "Universal ID Type"
+            },
+            "OBR.28.10" : "Name Type",
+            "OBR.28.11" : "Identifier Check Digit",
+            "OBR.28.12" : "Code Identifying The Check Digit Scheme Employed",
+            "OBR.28.13" : "Identifier Type Code",
+            "OBR.28.14" : {
+                "OBR.28.14.0" : "Assigning Facility ID",
+                "OBR.28.14.1" : "Namespace ID",
+                "OBR.28.14.2" : "Universal ID",
+                "OBR.28.14.3" : "Universal ID Type"
+            }
+        },
+        "OBR.29" : {
+            "OBR.29.0" : "Parent Number",
+            "OBR.29.1" : "Parent's Placer Order Number",
+            "OBR.29.2" : "Parent's Filler Order Number"
+            
+        },
+        "OBR.30" : "Transportation Mode",
+        "OBR.31" : {
+            "OBR.31.0" : "Reason For Study",
+            "OBR.31.1" : "identifier",
+            "OBR.31.2" : "text",
+            "OBR.31.3" : "name Of Coding System",
+            "OBR.31.4" : "alternate Identifier",
+            "OBR.31.5" : "alternate Text",
+            "OBR.31.6" : "name Of Alternate Coding System"
+        },
+        "OBR.32" : {
+            "OBR.32.0" : "Pricipal Result Interpreter",
+            "OBR.32.1" : "OP Name",
+            "OBR.32.2" : "Start Date/Time",
+            "OBR.32.3" : "End Date/Time",
+            "OBR.32.4" : "Point Of Care",
+            "OBR.32.5" : "Room",
+            "OBR.32.6" : "Bed",
+            "OBR.32.7" : "Facility",
+            "OBR.32.8" : "Location Status",
+            "OBR.32.9" : "Person Location Type",
+            "OBR.32.10" : "Building",
+            "OBR.32.11" : "Floor"
+        },
+        "OBR.33" : {
+            "OBR.33.0" : "Assistant Result Interpreter",
+            "OBR.33.1" : "OP Name",
+            "OBR.33.2" : "Start Date/Time",
+            "OBR.33.3" : "End Date/Time",
+            "OBR.33.4" : "Point Of Care",
+            "OBR.33.5" : "Room",
+            "OBR.33.6" : "Bed",
+            "OBR.33.7" : "Facility",
+            "OBR.33.8" : "Location Status",
+            "OBR.33.9" : "Person Location Type",
+            "OBR.33.10" : "Building",
+            "OBR.33.11" : "Floor"
+        },
+        "OBR.34" : {
+            "OBR.34.0" : "Technician",
+            "OBR.34.1" : "OP Name",
+            "OBR.34.2" : "Start Date/Time",
+            "OBR.34.3" : "End Date/Time",
+            "OBR.34.4" : "Point Of Care",
+            "OBR.34.5" : "Room",
+            "OBR.34.6" : "Bed",
+            "OBR.34.7" : "Facility",
+            "OBR.34.8" : "Location Status",
+            "OBR.34.9" : "Person Location Type",
+            "OBR.34.10" : "Building",
+            "OBR.34.11" : "Floor"
+        },
+        "OBR.35" : {
+            "OBR.35.0" : "Transciptionist",
+            "OBR.35.1" : "OP Name",
+            "OBR.35.2" : "Start Date/Time",
+            "OBR.35.3" : "End Date/Time",
+            "OBR.35.4" : "Point Of Care",
+            "OBR.35.5" : "Room",
+            "OBR.35.6" : "Bed",
+            "OBR.35.7" : "Facility",
+            "OBR.35.8" : "Location Status",
+            "OBR.35.9" : "Person Location Type",
+            "OBR.35.10" : "Building",
+            "OBR.35.11" : "Floor"
+        },
+        "OBR.36" : {
+            "OBR.36.0" : "Scheduled Date/Time",
+            "OBR.36.1" : "Time Of An Event"
+        },
+        "OBR.37" : "Number Of Sample Containers",
+        "OBR.38" : {
+            "OBR.38.0" : "Transport Logistics Of Collected Sample",
+            "OBR.38.1" : "identifier",
+            "OBR.38.2" : "text",
+            "OBR.38.3" : "name Of Coding System",
+            "OBR.38.4" : "alternate Identifier",
+            "OBR.38.5" : "alternate Text",
+            "OBR.38.6" : "name Of Alternate Coding System"
+        },
+        "OBR.39" : {
+            "OBR.39.0" : "Collector's Comment",
+            "OBR.39.1" : "identifier",
+            "OBR.39.2" : "text",
+            "OBR.39.3" : "name Of Coding System",
+            "OBR.39.4" : "alternate Identifier",
+            "OBR.39.5" : "alternate Text",
+            "OBR.39.6" : "name Of Alternate Coding System"
+        },
+        "OBR.40" : {
+            "OBR.40.0" : "Transport Arrangement Responsibility",
+            "OBR.40.1" : "identifier",
+            "OBR.40.2" : "text",
+            "OBR.40.3" : "name Of Coding System",
+            "OBR.40.4" : "alternate Identifier",
+            "OBR.40.5" : "alternate Text",
+            "OBR.40.6" : "name Of Alternate Coding System"
+        },
+        "OBR.41" : "Transport Arranged",
+        "OBR.42" : "Escort Required",
+        "OBR.43" : {
+            "OBR.43.0" : "Planned Patient Transport Comment",
+            "OBR.43.1" : "identifier",
+            "OBR.43.2" : "text",
+            "OBR.43.3" : "name Of Coding System",
+            "OBR.43.4" : "alternate Identifier",
+            "OBR.43.5" : "alternate Text",
+            "OBR.43.6" : "name Of Alternate Coding System"
+        }
+    },
+    "IN1": {
+        "IN1.0" : "Insurance",
+        "IN1.1" : "Set ID - Insurance",
+        "IN1.2" : {
+            "IN1.2.0" : "Insurance Plan ID",
+            "IN1.2.1" : "identifier",
+            "IN1.2.2" : "text",
+            "IN1.2.3" : "name Of Coding System",
+            "IN1.2.4" : "alternate Identifier",
+            "IN1.2.5" : "alternate Text",
+            "IN1.2.6" : "name Of Alternate Coding System"
+        },
+        "IN1.3" :{
+            "IN1.3.0" : "Insurance Company ID",
+            "IN1.3.1" : "ID",
+            "IN1.3.2" : "Check Digit",
+            "IN1.3.3" : "Code Identifying The Check Digit Scheme Employed",
+            "IN1.3.4" : {
+                "IN1.3.4.0" : "Assigning Authority",
+                "IN1.3.4.1" : "Namespace ID",
+                "IN1.3.4.2" : "Universal ID",
+                "IN1.3.4.3" : "Universal ID Type"
+            },
+            "IN1.3.5" : "Identifier Type Code",
+            "IN1.3.6" : {
+                "IN1.3.6.0" : "Assigning Facility",
+                "IN1.3.6.1" : "Namespace ID",
+                "IN1.3.6.2" : "Universal ID",
+                "IN1.3.6.3" : "Universal ID Type"
+            }
+        }, 
+        "IN1.4" : {
+            "IN1.4.0" : "Insurance Company Name",
+            "IN1.4.1" : "Organization Name",
+            "IN1.4.2" : "Organization Name Type Code",
+            "IN1.4.3" : "ID",
+            "IN1.4.4" : "Check Digit",
+            "IN1.4.5" : "Code Identifying The Check Digit Scheme Employed",
+            "IN1.4.6" : {
+                "IN1.4.6.0" : "Assigning Authority",
+                "IN1.4.6.1" : "Namespace ID",
+                "IN1.4.6.2" : "Universal ID",
+                "IN1.4.6.3" : "Universal ID Type"
+            },
+            "IN1.4.7" : "Identifier Type Code",
+            "IN1.4.8" : {
+                "IN1.4.8.0" : "Assigning Facility",
+                "IN1.4.8.1" : "Namespace ID",
+                "IN1.4.8.2" : "Universal ID",
+                "IN1.4.8.3" : "Universal ID Type"
+            }
+        },
+        "IN1.5" : {
+            "IN1.5.0" : "Insurance Company Address",
+            "IN1.5.1" : "Street Address",
+            "IN1.5.2" : "Other Designation",
+            "IN1.5.3" : "City",
+            "IN1.5.4" : "State Or Province",
+            "IN1.5.5" : "Zip Or Postal Code",
+            "IN1.5.6" : "Country",
+            "IN1.5.7" : "Address Type",
+            "IN1.5.8" : "Other Geographic Designation",
+            "IN1.5.9" : "Country/Parish Code",
+            "IN1.5.10" : "Census Tract"
+        },
+        "IN1.6" : {
+            "IN1.6.0" : "Insurance Co. Contact Person",
+            "IN1.6.1" : "Family Name",
+            "IN1.6.2" : "Given Name",
+            "IN1.6.3" : "Middle Initial Or Name",
+            "IN1.6.4" : "Suffix",
+            "IN1.6.5" : "Prefix",
+            "IN1.6.6" : "Degree",
+            "IN1.6.7" : "Name Type Code",
+            "IN1.6.8" : "Name Representation Code"
+        },
+        "IN1.7" : {
+            "IN1.7.0" : "Insurance Co Phone Number",
+            "IN1.7.1" : "Telephone Number",
+            "IN1.7.2" : "Telecommunication Use Code",
+            "IN1.7.3" : "Telecommunication Equipment Type",
+            "IN1.7.4" : "Email Address",
+            "IN1.7.5" : "Country Code",
+            "IN1.7.6" : "Area/City Code",
+            "IN1.7.7" : "Phone Number",
+            "IN1.7.8" : "Extension",
+            "IN1.7.9" : "Any Text"
+        },
+        "IN1.8" : "Group Number",
+        "IN1.9" : {
+            "IN1.9.0" : "Group Name",
+            "IN1.9.1" : "Organization Name",
+            "IN1.9.2" : "Organization Name Type Code",
+            "IN1.9.3" : "ID",
+            "IN1.9.4" : "Check Digit",
+            "IN1.9.5" : "Code Identifying The Check Digit Scheme Employed",
+            "IN1.9.6" : {
+                "IN1.9.6.0" : "Assigning Authority",
+                "IN1.9.6.1" : "Namespace ID",
+                "IN1.9.6.2" : "Universal ID",
+                "IN1.9.6.3" : "Universal ID Type"
+            },
+            "IN1.9.7" : "Identifier Type Code",
+            "IN1.9.8" : {
+                "IN1.9.8.0" : "Assigning Facility",
+                "IN1.9.8.1" : "Namespace ID",
+                "IN1.9.8.2" : "Universal ID",
+                "IN1.9.8.3" : "Universal ID Type"
+            }
+        },
+        "IN1.10" : {
+            "IN1.10.0" : "Insured's group employer ID",
+            "IN1.10.1" : "ID",
+            "IN1.10.2" : "Check Digit",
+            "IN1.10.3" : "Code Identifying The Check Digit Scheme Employed",
+            "IN1.10.4" : {
+                "IN1.10.4.0" : "Assigning Authority",
+                "IN1.10.4.1" : "Namespace ID",
+                "IN1.10.4.2" : "Universal ID",
+                "IN1.10.4.3" : "Universal ID Type"
+            },
+            "IN1.10.5" : "Identifier Type Code",
+            "IN1.10.6" : {
+                "IN1.10.6.0" : "Assigning Facility",
+                "IN1.10.6.1" : "Namespace ID",
+                "IN1.10.6.2" : "Universal ID",
+                "IN1.10.6.3" : "Universal ID Type"
+            }
+        },
+        "IN1.11" :{
+            "IN1.11.0" : "Danger Code",
+            "IN1.11.1" : "Organization Name",
+            "IN1.11.2" : "Organization Name Type Code",
+            "IN1.11.3" : "ID",
+            "IN1.11.4" : "Check Digit",
+            "IN1.11.5" : "Code Identifying The Check Digit Scheme Employed",
+            "IN1.11.6" : {
+                "IN1.11.6.0" : "Assigning Authority",
+                "IN1.11.6.1" : "Namespace ID",
+                "IN1.11.6.2" : "Universal ID",
+                "IN1.11.6.3" : "Universal ID Type"
+            },
+            "IN1.11.7" : "Identifier Type Code",
+            "IN1.11.8" : {
+                "IN1.11.8.0" : "Assigning Facility",
+                "IN1.11.8.1" : "Namespace ID",
+                "IN1.11.8.2" : "Universal ID",
+                "IN1.11.8.3" : "Universal ID Type"
+            }
+        },
+        "IN1.12" : "Plan Effective Date",
+        "IN1.13" : "Plan Expiration Date",
+        "IN1.14" : {
+            "IN1.14.0" : "Authoriaztion Informaiton",
+            "IN1.14.1" : "Authorization Number",
+            "IN1.14.2" : "Date",
+            "IN1.14.3" : "Source"
+        },
+        "IN1.15" : "Plan Type",
+        "IN1.16" : {
+            "IN1.16.0" : "Name Of Insured",
+            "IN1.16.1" : "Family Name",
+            "IN1.16.2" : "Given Name",
+            "IN1.16.3" : "Middle Initial Or Name",
+            "IN1.16.4" : "Suffix",
+            "IN1.16.5" : "Prefix",
+            "IN1.16.6" : "Degree",
+            "IN1.16.7" : "Name Type Code",
+            "IN1.16.8" : "Name Representation Code"
+        },
+        "IN1.17" : "Insured's Relationship to Patient",
+        "IN1.18" : {
+            "IN1.18.0" : "Insured's Date of Birth",
+            "IN1.18.1" : "Time of An Event"
+        },
+        "IN1.19" :{
+            "IN1.19.0" : "Insured's Address",
+            "IN1.19.1" : "Street Address",
+            "IN1.19.2" : "Other Designation",
+            "IN1.19.3" : "City",
+            "IN1.19.4" : "State Or Province",
+            "IN1.19.5" : "Zip Or Postal Code",
+            "IN1.19.6" : "Country",
+            "IN1.19.7" : "Address Type",
+            "IN1.19.8" : "Other Geographic Designation",
+            "IN1.19.9" : "Country/Parish Code",
+            "IN1.19.10" : "Census Tract"
+            
+        },
+        "IN1.20" : "Assignment of Benefits",
+        "IN1.21" : "Coordination of Benefits",
+        "IN1.22" : "Coord of Ben. Priority",
+        "IN1.23" : "Notice of Admission Code",
+        "IN1.24" : "Notice of Admission Date",
+        "IN1.25" : "Report of Eigibility Code",
+        "IN1.26" : "Report of Eligibility Date",
+        "IN1.27" : "Release Information Code",
+        "IN1.28" : "Pre-Admit Cert",
+        "IN1.29" : {
+            "IN1.29.0" : "Verification Date/Time",
+            "IN1.29.1" : "Time Of An Event"
+        },
+        "IN1.30" : {
+            "ORC.30.0" : "Verification By",
+            "ORC.30.1" : "ID Number",
+            "ORC.30.2" : "Family Name",
+            "ORC.30.3" : "Given Name",
+            "ORC.30.4" : "Middle Initial Or Name",
+            "ORC.30.5" : "Suffix",
+            "ORC.30.6" : "Prefix",
+            "ORC.30.7" : "Degree",
+            "ORC.30.8" : "Source Table",
+            "ORC.30.9" : {
+                "ORC.30.9.0" : "Assigning Authority",
+                "ORC.30.9.1" : "Namespace ID",
+                "ORC.30.9.2" : "Universal ID",
+                "ORC.30.9.3" : "Universal ID Type"
+            },
+            "ORC.30.10" : "Name Type",
+            "ORC.30.11" : "Identifier Check Digit",
+            "ORC.30.12" : "Code Identifying The Check Digit Scheme Employed",
+            "ORC.30.13" : "Identifier Type Code",
+            "ORC.30.14" : {
+                "ORC.30.14.0" : "Assigning Facility ID",
+                "ORC.30.14.1" : "Namespace ID",
+                "ORC.30.14.2" : "Universal ID",
+                "ORC.30.14.3" : "Universal ID Type"
+            }
+        },
+        "IN1.31" : "Type of Agreement Code",
+        "IN1.32" : "Billing Status",
+        "IN1.33" : "Lifetime Reserve Days",
+        "IN1.34" : "Delay before lifetime reserve days",
+        "IN1.35" : "Company Plan Code",
+        "IN1.36" : "Policy Number",
+        "IN1.37" : {
+            "IN1.37.0" : "Policy Deductible",
+            "IN1.37.1" : "Price",
+            "IN1.37.2" : "Price Type",
+            "IN1.37.3" : "From Value",
+            "IN1.37.4" : "To Value",
+            "IN1.37.5" : "Range Units",
+            "IN1.37.6" : "Range Type"
+        },
+        "IN1.38" : {
+            "IN1.38.0" : "Policy Limit - Amount",
+            "IN1.38.1" : "Price",
+            "IN1.38.2" : "Price Type",
+            "IN1.38.3" : "From Value",
+            "IN1.38.4" : "To Value",
+            "IN1.38.5" : "Range Units",
+            "IN1.38.6" : "Range Type"
+        },
+        "IN1.39" : "Policy Limit - Days",
+        "IN1.40" : {
+            "IN1.40.0" : "Room Rate - Semi-Private",
+            "IN1.40.1" : "Price",
+            "IN1.40.2" : "Price Type",
+            "IN1.40.3" : "From Value",
+            "IN1.40.4" : "To Value",
+            "IN1.40.5" : "Range Units",
+            "IN1.40.6" : "Range Type"
+        },
+        "IN1.41" : {
+            "IN1.41.0" : "Room Rate - Private",
+            "IN1.41.1" : "Price",
+            "IN1.41.2" : "Price Type",
+            "IN1.41.3" : "From Value",
+            "IN1.41.4" : "To Value",
+            "IN1.41.5" : "Range Units",
+            "IN1.41.6" : "Range Type"
+        },
+        "IN1.42" : {
+            "IN1.42.0" : "Insured's Employment Status",
+            "IN1.42.1" : "identifier",
+            "IN1.42.2" : "text",
+            "IN1.42.3" : "name Of Coding System",
+            "IN1.42.4" : "alternate Identifier",
+            "IN1.42.5" : "alternate Text",
+            "IN1.42.6" : "name Of Alternate Coding System"
+        },
+        "IN1.43" : "Insured's Sex",
+        "IN1.44" : {
+            "IN1.44.0" : "Insured's Employer Address",
+            "IN1.44.1" : "Street Address",
+            "IN1.44.2" : "Other Designation",
+            "IN1.44.3" : "City",
+            "IN1.44.4" : "State Or Province",
+            "IN1.44.5" : "Zip Or Postal Code",
+            "IN1.44.6" : "Country",
+            "IN1.44.7" : "Address Type",
+            "IN1.44.8" : "Other Geographic Designation",
+            "IN1.44.9" : "Country/Parish Code",
+            "IN1.44.10" : "Census Tract"
+        },
+        "IN1.45" : "Verification Status",
+        "IN1.46" : "Prior Insurance Plan ID",
+        "IN1.47" : "Coverage Type",
+        "IN1.48" : "Handicap",
+        "IN1.49" : {
+            "IN1.49.0" : "Insured's ID Number",
+            "IN1.49.1" : "ID",
+            "IN1.49.2" : "Check Digit",
+            "IN1.49.3" : "Code Identifying The Check Digit Scheme Employed",
+            "IN1.49.4" : {
+                "IN1.49.4.0" : "Assigning Authority",
+                "IN1.49.4.1" : "Namespace ID",
+                "IN1.49.4.2" : "Universal ID",
+                "IN1.49.4.3" : "Universal ID Type"
+            },
+            "IN1.49.5" : "Identifier Type Code",
+            "IN1.49.6" : {
+                "IN1.49.6.0" : "Assigning Facility",
+                "IN1.49.6.1" : "Namespace ID",
+                "IN1.49.6.2" : "Universal ID",
+                "IN1.49.6.3" : "Universal ID Type"
+            }
+        }
+    }
+}

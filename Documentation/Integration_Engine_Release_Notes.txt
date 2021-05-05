@@ -1,0 +1,105 @@
+RELEASE NOTES 
+Open-Source Integration Engine
+////////////////////////////////////////////////////////////////
+April 14, 2021
+New 
+*Interactive pie chart from AnyChart JS library
+
+Issues
+*Back button was not working properly on patientinfo.html
+*Color headers were mismatched
+ 
+////////////////////////////////////////////////////////////////
+April 5, 2021
+
+New
+*Tabbed patient page
+*loading spinner
+*SIU live to database
+*SIU live pulling from database to app
+*ORM live to database
+*ORM live pulling from database to app
+*Admin doctor search
+
+Issues
+*Some fields from messages unable to grab
+
+////////////////////////////////////////////////////////////////
+March 22, 2021
+
+New
+*Updated patient table display
+*updated Button layout on main page
+*Headers added to pages
+*Database complete
+*patient info page
+
+Issues
+*Need to link up SIU messages with database
+
+
+////////////////////////////////////////////////////////////////
+March 7, 2021
+
+New
+*Encryption on sign in 
+*Encrytpion on channel messages
+*Search patient when doctor signed in returns all patients
+*search patient when doctor signed in radio button to select showing non active patients
+
+Issues
+*S12 messages test has false failures
+
+////////////////////////////////////////////////////////////////
+February 22, 2021
+
+New
+*Sign in directs to landing page based on role
+*channel implemented
+*channel gets old messages as well as live messages
+*channel auto scrolls to bottom
+
+Issues
+*Some buttons not linked on landing pages
+
+////////////////////////////////////////////////////////////////
+January 31, 2021
+
+New 
+*Android app live
+
+////////////////////////////////////////////////////////////////
+December 03, 2020
+
+NEW
+*listener sends parsed message to sort function
+*sort function creates v2.8 json object and sends to backend 
+*backend asynchronously recieves json object and stores in database
+
+Fixed
+*JSON Templates had to be changed to work with sort function
+
+Issues
+*when changing Json templates broke v2.3-v2.7 handling
+
+////////////////////////////////////////////////////////////////
+November 16, 2020
+
+NEW
+*GUI interface present
+*Parsed message is sorted by segment
+
+Fixed
+*JSON Templates are now in V2.8 were in v2.3
+
+Issues
+*Still need store sorted message in json templates
+
+////////////////////////////////////////////////////////////////
+November 9, 2020
+
+NEW
+*listener works
+*parsing message works
+*JSON Templates are in V2.3
+*Backend Can insert v2.3 templates into database(artificially set for testing)

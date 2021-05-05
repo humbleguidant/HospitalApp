@@ -1,0 +1,92 @@
+<!--
+##################################################
+ This is the design page for the user login form.
+##################################################
+ YearMonthDayCreated: 2020-11-09
+ Project: Open Source Engine Integration
+ Program Name: index.html (Sign In Page)
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.4
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)       Author             Revision      What was changed?
+ 2020/11/09              Aubrey Nickerson   1             Set up first draft.
+ 2020/11/13              Aubrey Nickerson   2             Set up text boxes.
+ 2020/11/16              Aubrey Nickerson   3             Change button style.
+ 2021/02/22              Bao Mai            4             Change color theme and add logo
+###################################################
+MIT License
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+###################################################
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Security-Policy" content="connect-src *"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/signIn.css">
+    <!-- JavaScript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script type="text/javascript" src="js/JsAES.js"></script>
+    <script type="text/javascript" src="js/signIn.js"></script>
+    <title>Sign-In</title>
+</head>
+<body>
+<div id="home" class="container-fluid">
+    <div class="image-box">
+        <img src="./img/EmeraldLogo.png" alt="Responsive image">
+    </div>
+    <form class='form-signin' role="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 login-box">
+                <div class="title-box">
+                    <h2>Login</h2>
+                    <p>Please enter  your login credentials.</p>
+                </div>
+                <!-- User text boxes start here. -->
+                <div class="row">
+                    <label for="inputEmail">Email:</label>
+                    <input type="text" id="inputEmail" name="email" placeholder="Enter Email" class="form-control inpt-sm">
+                </div>
+                <div class="row">
+                    <label for="inputPassword">Password:</label>
+                    <input type="password" id="inputPassword" name="password" placeholder="Enter Password" class="form-control inpt-sm">
+                </div>
+                <!-- User text boxes ends here. -->
+                <!-- Submit button is here. -->
+                <div class="submot-row">
+                    <button class="btn btn-sm btn-success" type="submit" id="submit"> Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <div id="loader" class="lds-dual-ring hidden overlay"></div>
+</div>
+</body>
+</html>

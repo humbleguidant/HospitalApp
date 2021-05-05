@@ -1,0 +1,75 @@
+<!--
+##################################################
+ This is the design page for the patients or doctors schedule.
+##################################################
+ YearMonthDayCreated: 2021-02-18
+ Project: Open Source Engine Integration
+ Program Name: schedule.html
+ Author: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel
+ Copyright: Copyright 2021
+ Credits: Bao Mai, Derek Manchee, Aubrey Nickerson, Joseph Egely, Keaton Canuel, Youry Khmelevsky, Benson Ho
+ License: MIT License
+ Version: 1.2
+ Maintainer: Okanagan College Team
+ Status: Working
+ Revision History:
+ Date (YYYY/MM/DD)        Author             Revision      What was changed?
+ 2021/02/18               Bao mai            1             Set up design page
+ 2021/03/04               Aubrey Nickerson   2             Add encryption imports.
+##################################################
+MIT License 
+Copyright 2021 Okanagan College & Harris Healthcare
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+End license text.
+##################################################
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Security-Policy" content="connect-src *"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/schedule.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script type="text/javascript" src="../js/JsAES.js"></script>
+    <script type="text/javascript" src="../js/schedule.js"></script>
+    <title>Patient Schedule</title>
+</head>
+<body>
+    <!--  ************************* Body Starts Here ************************** -->
+    <div class="header">
+        <a href="../pages/mainMenu.html">
+            <div class="back">
+
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </a>
+        <h1>Patient Schedule</h1>
+    </div>
+    <!--  ************************* Table Starts Here ************************** -->
+    <table id="scheduleTable" class="table-fill">
+        <thead>
+        <tr>
+            <th id="callerHeader" class="text-left firstRow"></th>
+            <th class="text-left firstRow">Issue</th>
+            <th class="text-left firstRow">Date</th>
+        </tr>
+        </thead>
+    </table>
+    <div id="loader" class="lds-dual-ring hidden overlay"></div>
+</body>
+</html>

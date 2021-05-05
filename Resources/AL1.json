@@ -1,0 +1,151 @@
+{
+    "RXO": {
+        "RXO.0" : "Pharmacy prescription order segment",
+        "RXO.1" : {
+            "RXO.1.0" : "Requested Give Code",
+            "RXO.1.1" : "identifier",
+            "RXO.1.2" : "text",
+            "RXO.1.3" : "name Of Coding System",
+            "RXO.1.4" : "alternate Identifier",
+            "RXO.1.5" : "alternate Text",
+            "RXO.1.6" : "name Of Alternate Coding System"
+        },
+        "RXO.2" : "Requested Give Amount - Minimum",
+        "RXO.3" : "Requested Give Amount - Maximum", 
+        "RXO.4" : {
+            "RXO.4.0" : "Request Give Units",
+            "RXO.4.1" : "identifier",
+            "RXO.4.2" : "text",
+            "RXO.4.3" : "name Of Coding System",
+            "RXO.4.4" : "alternate Identifier",
+            "RXO.4.5" : "alternate Text",
+            "RXO.4.6" : "name Of Alternate Coding System"
+        },
+        "RXO.5" : {
+            "RXO.5.0" : "Requested Dosage Form",
+            "RXO.5.1" : "identifier",
+            "RXO.5.2" : "text",
+            "RXO.5.3" : "name Of Coding System",
+            "RXO.5.4" : "alternate Identifier",
+            "RXO.5.5" : "alternate Text",
+            "RXO.5.6" : "name Of Alternate Coding System"
+        },
+        "RXO.6" : {
+            "RXO.6.0" : "InsuranProvider's Pharmacy Instructions",
+            "RXO.6.1" : "identifier",
+            "RXO.6.2" : "text",
+            "RXO.6.3" : "name Of Coding System",
+            "RXO.6.4" : "alternate Identifier",
+            "RXO.6.5" : "alternate Text",
+            "RXO.6.6" : "name Of Alternate Coding System"
+        },
+        "RXO.7" : {
+            "RXO.7.0" : "Provider's Administration Instruction",
+            "RXO.7.1" : "identifier",
+            "RXO.7.2" : "text",
+            "RXO.7.3" : "name Of Coding System",
+            "RXO.7.4" : "alternate Identifier",
+            "RXO.7.5" : "alternate Text",
+            "RXO.7.6" : "name Of Alternate Coding System"
+        },
+        "RXO.8" : {
+            "RXO.8.0" : "Delivery to Location",
+            "RXO.8.1" : "Point of Care",
+            "RXO.8.2" : "Room",
+            "RXO.8.3" : "Bed",
+            "RXO.8.4" : "Facility",
+            "RXO.8.5" : "Location Status",
+            "RXO.8.6" : "Person Location Type",
+            "RXO.8.7" : "Building",
+            "RXO.8.8" : "Floor",
+            "RXO.8.9" : "Address"
+            
+        },
+        "RXO.9" : "Allow Substitutions",
+        "RXO.10" : {
+            "RXO.10.0" : "Requested Dispense Code",
+            "RXO.10.1" : "identifier",
+            "RXO.10.2" : "text",
+            "RXO.10.3" : "name Of Coding System",
+            "RXO.10.4" : "alternate Identifier",
+            "RXO.10.5" : "alternate Text",
+            "RXO.10.6" : "name Of Alternate Coding System"
+        },
+        "RXO.11" : "Requested Dispense Amount",
+        "RXO.12" : {
+            "RXO.12.0" : "Requested Dispense Units",
+            "RXO.12.1" : "identifier",
+            "RXO.12.2" : "text",
+            "RXO.12.3" : "name Of Coding System",
+            "RXO.12.4" : "alternate Identifier",
+            "RXO.12.5" : "alternate Text",
+            "RXO.12.6" : "name Of Alternate Coding System"
+        },
+        "RXO.13" : "Number of Refills",
+        "RXO.14" : {
+            "RXO.14.0" : "Ordering Provider's DEA Number",
+            "RXO.14.1" : "ID Number",
+            "RXO.14.2" : "Family Name",
+            "RXO.14.3" : "Given Name",
+            "RXO.14.4" : "Middle Initial Or Name",
+            "RXO.14.5" : "Suffix",
+            "RXO.14.6" : "Prefix",
+            "RXO.14.7" : "Degree",
+            "RXO.14.8" : "Source Table",
+            "RXO.14.9" : "Assigning Authority",
+            "RXO.14.10" : "Name Type",
+            "RXO.14.11" : "Identifier Check Digit",
+            "RXO.14.12" : "Code Identifying The Check Digit Scheme Employed",
+            "RXO.14.13" : "Identifier Type Code",
+            "RXO.14.14" : "Assigning Facility ID"
+        },
+        "RXO.15" : {
+            "RXO.15.0" : "Pharmacist/Treatment Supplier's Verifier ID",
+            "RXO.15.1" : "ID Number",
+            "RXO.15.2" : "Family Name",
+            "RXO.15.3" : "Given Name",
+            "RXO.15.4" : "Middle Initial Or Name",
+            "RXO.15.5" : "Suffix",
+            "RXO.15.6" : "Prefix",
+            "RXO.15.7" : "Degree",
+            "RXO.15.8" : "Source Table",
+            "RXO.15.9" : "Assigning Authority",
+            "RXO.15.10" : "Name Type",
+            "RXO.15.11" : "Identifier Check Digit",
+            "RXO.15.12" : "Code Identifying The Check Digit Scheme Employed",
+            "RXO.15.13" : "Identifier Type Code",
+            "RXO.15.14" : "Assigning Facility ID"
+        },
+        "RXO.16" : "Need Human Review",
+        "RXO.17" : "Requested Give Per",
+        "RXO.18" : "Requested Give Strength",
+        "RXO.19" : {
+            "RXO.19.0" : "Requested Give Strength Units",
+            "RXO.19.1" : "identifier",
+            "RXO.19.2" : "text",
+            "RXO.19.3" : "name Of Coding System",
+            "RXO.19.4" : "alternate Identifier",
+            "RXO.19.5" : "alternate Text",
+            "RXO.19.6" : "name Of Alternate Coding System"
+        },
+        "RXO.20" : {
+            "RXO.20.0" : "Indication",
+            "RXO.20.1" : "identifier",
+            "RXO.20.2" : "text",
+            "RXO.20.3" : "name Of Coding System",
+            "RXO.20.4" : "alternate Identifier",
+            "RXO.20.5" : "alternate Text",
+            "RXO.20.6" : "name Of Alternate Coding System"
+        },
+        "RXO.21" : "Requested Give Rate Amount",
+        "RXO.22" : {
+            "RXO.22.0" : "Requested Give Rate Units",
+            "RXO.22.1" : "identifier",
+            "RXO.22.2" : "text",
+            "RXO.22.3" : "name Of Coding System",
+            "RXO.22.4" : "alternate Identifier",
+            "RXO.22.5" : "alternate Text",
+            "RXO.22.6" : "name Of Alternate Coding System"
+        }
+    }
+}
