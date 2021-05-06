@@ -7,5 +7,9 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 # Functional Requirements
 1. User should be able to log in (patient, doctor, or admin).<br/> <br/>
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/login.PNG?raw=true) <br /> <br />
-2. Doctors menu <br/> <br/>
+2. Doctors Menu <br/> <br/>
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/doctorsmenu.PNG?raw=true) <br /> <br />
+3. Patients Menu <br/> <br/>
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/patientsmenu.PNG?raw=true) <br /> <br />
+4. Administrator Menu <br/> <br/>
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/adminmenu.PNG?raw=true) <br /> <br />
