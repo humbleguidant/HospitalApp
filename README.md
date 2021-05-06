@@ -31,5 +31,13 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/occupancyoverview.PNG?raw=true) <br /> <br />
 13. The pie chart should be interactive <br /> <br />
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/interactive.PNG?raw=true) <br /> <br />
-14. The administrator should be able to select the occupancy details and be presented with the details of the beds.  <br /> <br />
+14. The administrator should be able to select the occupancy details link and be presented with the details of the beds.  <br /> <br />
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/occupancydetails.PNG?raw=true) <br /> <br />
+15. The doctor should be able to search for all patients, inactive, and active. <br /> <br />
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/searchpatients.PNG?raw=true) <br /> <br />
+16. Inactive patients <br /> <br />
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/inactive.PNG?raw=true) <br /> <br />
+17. The doctor should be able to access their scheduled appointments. <br /> <br />
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/doctorschedule.PNG?raw=true) <br /> <br />
+18. As well as the patient <br /> <br />
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/patientschedule.PNG?raw=true) <br /> <br />
