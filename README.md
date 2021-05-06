@@ -41,3 +41,11 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/doctorschedule.PNG?raw=true) <br /> <br />
 18. As well as the patient <br /> <br />
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/patientschedule.PNG?raw=true) <br /> <br />
+
+
+# Nonfunctional Requirements
+1. Quickly send chat messages with sockets <br /> <br />
+2. easily display chat history <br /> <br />
+3. Main Menu is dynamic depending on the role of the user <br /> <br />
+4. Run on android <br /> <br />
+6. Chat messages cannot be empty <br /> <br />
