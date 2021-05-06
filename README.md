@@ -31,5 +31,5 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/occupancyoverview.PNG?raw=true) <br /> <br />
 13. The pie chart should be interactive <br /> <br />
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/interactive.PNG?raw=true) <br /> <br />
-14. The administrator should be able to select the occupancy details and be presented with the details of the beds. 
+14. The administrator should be able to select the occupancy details and be presented with the details of the beds.  <br /> <br />
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/occupancydetails.PNG?raw=true) <br /> <br />
