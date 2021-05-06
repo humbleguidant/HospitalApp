@@ -17,4 +17,5 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/chatroomselect.PNG?raw=true) <br /> <br />
 6. User should be able to access chat history with caller. <br /> <br/>
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/chathistory.PNG?raw=true) <br /> <br />
-
+7. The administrator should be able to search for doctors in the hospital.
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/searchdoctor.PNG?raw=true) <br /> <br />
