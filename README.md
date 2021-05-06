@@ -19,3 +19,5 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/chathistory.PNG?raw=true) <br /> <br />
 7. The administrator should be able to search for doctors in the hospital. <br /> <br/>
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/searchdoctor.PNG?raw=true) <br /> <br />
+8. The administrator should be able to search for the patients associated with a specific doctor. <br /> <br/>
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/searchdoctorspatients.PNG?raw=true) <br /> <br />
