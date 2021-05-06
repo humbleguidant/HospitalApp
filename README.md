@@ -23,3 +23,5 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/searchdoctorspatients.PNG?raw=true) <br /> <br />
 9. When clicking on a patient, the user should be able to see the patients information. <br /> <br />
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/doctorspatientinfo.PNG?raw=true) <br /> <br />
+10. Along with the scheduled appointments. <br /> <br />
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/doctorspatientschedule.PNG?raw=true) <br /> <br />
