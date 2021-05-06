@@ -11,5 +11,8 @@ The code for the front end is in CordovaApp/opensourceintegration/www the JavaSc
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/doctorsmenu.PNG?raw=true) <br /> <br />
 3. Patients Menu <br/> <br/>
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/patientsmenu.PNG?raw=true) <br /> <br />
-4. Administrator Menu <br/> <br/>
+4. Administrators Menu <br/> <br/>
 ![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/adminmenu.PNG?raw=true) <br /> <br />
+5. User should access chat channel. The Administrators can chat with all patients and doctors in the hospital. Patients can only talk with associated doctors and administrators. Doctors can only speak with associated patients and administrators. 
+![alt text](https://github.com/humbleguidant/HospitalApp/blob/master/Screenshots/chatroomselect.PNG?raw=true) <br /> <br />
+6. 
